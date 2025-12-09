@@ -56,3 +56,8 @@ build/
 /dist/
 /nbdist/
 /.nb-gradle/
+/src/main/java/catchthepattern/com/paypal/PayPalClient.java
+/src/main/resources/application.yml
+/src/main/resources/application-yml.bk
+
+
