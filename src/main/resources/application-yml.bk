@@ -1,0 +1,163 @@
+catchthepattern:
+  app:
+    url: http://localhost:4210
+    jwtSecret: '9063551230'
+    jwtExpirationMs: '86400000'
+    email: noreply@catchthepattern.com
+    server: http://catchthepattern.uc.r.appspot.com
+spring:
+  mail:
+    username: catchthepattern@gmail.com
+    host: smtp.gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            required: 'true'
+            enable: 'true'
+          writetimeout: '10000'
+          timeout: '10000'
+          auth: 'true'
+          connectiontimeout: '10000'
+    protocol: smtp
+    port: '587'
+    password: wsmgjmgwgrykopbz
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    password: Deposit@45
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: yingjie
+    url: jdbc:mysql://34.136.32.149:3306/ctp
+  mvc:
+    media-types:
+      csv: text/csv
+alphavantage:
+  api: V8KI8W44MEK4E5HL
+server:
+  port: '8080'
+  
+spring.profiles.active: mysql
+database: mysql
+spring.cloud.gcp.sql.instance-connection-name: catchthepattern:us-central1:ctp
+spring.cloud.gcp.sql.database-name: ctp
+spring.sql.init.mode: always
+  
+#spring.jpa.hibernate.ddl-auto=update
+#spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/ctp
+#spring.datasource.username=yingjie
+#spring.datasource.password=Deposit@45
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#server.port = 8080
+#spring.mail.protocol=smtp
+#spring.mail.host=smtp.gmail.com
+#spring.mail.port=587
+#spring.mail.username=catchthepattern@gmail.com
+#spring.mail.password=wsmgjmgwgrykopbz
+#spring.mail.properties.mail.smtp.auth=true
+#spring.mail.properties.mail.smtp.starttls.enable=true
+#spring.mail.properties.mail.smtp.starttls.required=true
+#spring.mail.properties.mail.smtp.connectiontimeout=10000
+#spring.mail.properties.mail.smtp.timeout=10000
+#spring.mail.properties.mail.smtp.writetimeout=10000
+#catchthepattern.app.jwtSecret=9063551230
+#catchthepattern.app.jwtExpirationMs=86400000
+#catchthepattern.app.url=http://localhost:4210
+#catchthepattern.app.server=http://localhost:8080
+#catchthepattern.app.email=noreply@catchthepattern.com
+#alphavantage.api=V8KI8W44MEK4E5HL
+#spring.mvc.media-types.csv=text/csv
+
+
+# Loco yaml export: Simple YAML object
+# Project: 1.properties conversion
+# Release: Working copy
+# Locale: en, English
+# Exported by: Unregistered user
+# Exported at: Tue, 18 Sep 2018 23:23:36 -0500
+
+# ===============================
+# Database
+# ===============================
+
+#spring.cloud.appId=tugc-906355
+#spring.cloud.gcp.project-id=tugc-906355
+#spring.cloud.gcp.sql.instance-connection-name=tugc-906355:us-central1:tugc-906355-db
+#spring.cloud.gcp.sql.database-name=tugc_db
+#spring.datasource.username=root
+#spring.datasource.password=U8adewiodeposit5
+#spring.datasource.continue-on-error=true
+#spring.datasource.initialization-mode=always
+#spring.cloud.gcp.credentials.location=file:./src/main/resources/keys-gcp.json
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+#spring.jpa.database-platform=org.hibernate.dialect.MySQL55Dialect
+#spring.jpa.hibernate.ddl-auto=update
+
+#spring.datasource.url=jdbc:mysql://localhost:3306/tugc_db?useSSL=false
+#spring.datasource.url=jdbc:mysql://35.239.220.134:3306/tugc_db?useSSL=false
+#spring.datasource.username=root
+#spring.datasource.password=
+
+# database init, supports mysql too
+
+
+
+#spring.jpa.show-sql: true
+ 
+
+# ===============================
+# Session
+# ===============================
+
+#spring.session.store-type=redis # Session store type.
+#spring.redis.host=localhost # Redis server host.
+#spring.redis.password= # Login password of the redis server.
+#spring.redis.port=6379 # Redis server port.
+
+# ===============================
+# JSP
+# ===============================
+#spring.mvc.view.prefix=/WEB-INF/jsp/
+#spring.mvc.view.suffix=.jsp
+
+# ===============================
+# TOMCAT
+# ===============================
+
+#server.address=127.0.0.1
+#server.error.whitelabel.enabled=false
+#server.tomcat.accesslog.enabled=true
+
+# ===============================
+# SMTP EMAIL
+# ===============================
+
+
+#spring.mail.host = smtp.gmail.com
+#spring.mail.username=contact@tugc.org
+#spring.mail.password=Newpass@1
+#spring.mail.port = 465
+#spring.mail.port = 587
+#spring.mail.properties.mail.smtp.auth = true
+#spring.mail.properties.mail.smtp.starttls.enable = true
+
+# ===============================
+#  LOGGING
+# ===============================
+#logging.level.org.springframework.web=DEBUG
+#logging.level.org.hibernate=ERROR
+
+
+# ===============================
+#  Security 
+# ===============================
+
+
+
+#free
+#alphavantage.api=37SNAFOHXTCOO2E3
+
+#premium 75/minute
+
+

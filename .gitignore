@@ -1,0 +1,58 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+
+# Compiled Java classes
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+/bin/
+/build/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.settings/
+*.launch
+
+# VS Code
+.vscode/
+
+# Intellij
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
