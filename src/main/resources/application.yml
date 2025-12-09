@@ -1,0 +1,59 @@
+catchthepattern:
+  app:
+    url: ${APP_URL}
+    jwtSecret: ${APP_JWT_SECRET}
+    jwtExpirationMs: 31536000000
+    email: ${APP_EMAIL}
+    server: ${APP_SERVER}
+spring:
+  mail:
+    username: ${SPRING_MAIL_USERNAME}
+    host: ${SPRING_MAIL_HOST}
+    properties:
+      mail:
+        smtp:
+          starttls:
+            required: true
+            enable: true
+          writetimeout: 10000
+          timeout: 10000
+          auth: 'true'
+          connectiontimeout: 10000
+    protocol: smtp
+    port: ${SPRING_MAIL_PORT}
+    password: ${SPRING_MAIL_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    media-types:
+      csv: text/csv
+alphavantage:
+  api: 
+server:
+  port: 5000
+  
+paypal:
+  sandbox:
+    clientId: 
+    clientSecret: 
+
+# ===============================
+# Database
+# ===============================
+
+spring.datasource.url: ${SPRING_DATASOURCE_URL}
+spring.datasource.username: ${SPRING_DATASOURCE_USERNAME}
+spring.datasource.password: ${SPRING_DATASOURCE_PASSWORD} 
+
+# change to prod:
+#spring.datasource.url: ${SPRING_DATASOURCE_URL_PROD}
+#spring.datasource.password: ${SPRING_DATASOURCE_PASSWORD}
+
+
+spring.datasource.driver-class-name: com.mysql.cj.jdbc.Driver
+spring.datasource.username: root
+spring.jpa.hibernate.ddl-auto: update
+
+
+
